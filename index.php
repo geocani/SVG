@@ -46,11 +46,11 @@
                 </div>
                 <div class="flex-deux">
                     <ul class="interface">
-                        <li>1. Selectionner et transformer des objets.</li>
-                        <li>2. Créer des rectangles et des carrés.</li>
-                        <li>3. Créer des cercles.</li>
-                        <li>4. Créer des polygones.</li>
-                        <li>5. Editer les couleurs et les contours des objets.</li>
+                        <li>1. <span class="bold">Selectionner</span> et <span class="bold">transformer</span> des objets.</li>
+                        <li>2. Créer des <span class="bold">rectangles</span> et des <span class="bold">carrés</span>.</li>
+                        <li>3. Créer des <span class="bold">cercles</span>.</li>
+                        <li>4. Créer des <span class="bold">polygones</span>.</li>
+                        <li>5. Editer les <span class="bold">couleurs</span> et les <span class="bold">contours</span> des objets.</li>
                     </ul>
                 </div>
             </div>
@@ -59,11 +59,11 @@
             <div class="cont-flex">
                 <div class="flex-un">
                     <ul class="interface">
-                        <li>Dessine un cercle, ajoute lui une couleur de fond et une bordure.</li><br/>
-                        <li>Dessine un carré avec les memes propriétés mais avec des valeurs différentes.</li><br/>
-                        <li>Maintenant un rectangle.</li><br/>
-                        <li>Et un triangle.</li><br/>
-                        <li>Enfin enregistre le fichier au format .svg.</li><br/>
+                        <li>Dessine un cercle, ajoute lui une couleur de fond et une bordure.</li>
+                        <li>Dessine un carré avec les memes propriétés mais avec des valeurs différentes.</li>
+                        <li>Maintenant un rectangle.</li>
+                        <li>Et un triangle.</li>
+                        <li>Enfin enregistre le fichier au format .svg.</li>
                     </ul>
                     <p>TIPS:_____________</p>
                 </div>
@@ -71,8 +71,17 @@
                     <img class="img-article" src="img/inkscape-formes.png" alt="print scrn inkscape">
                     <p>Voila plus ou moins le genre de résultat que tu devrais obtenir:</p>
                     <h3>Le coeur du sujet:</h3>
-                    <p>Voyons ce qu'il se passe si vous ouvrez ce fichier dans votre éditeur de code préféré. (Visual, atome, ...) </p>
-                    <img src="img/dessintest.svg" alt="">
+                    
+                </div>
+            </div>
+            <div class="cont-flex">
+                <div class="flex-un">
+                    <p>Voyons ce qu'il se passe si vous ouvrez ce fichier dans votre éditeur de code préféré.</p>
+                    <img class="img-article" src="img/dessintest.svg" alt="">
+                </div>
+                <div class="flex-deux">
+                <p>Voyons ce qu'il se passe si vous ouvrez ce fichier dans votre éditeur de code préféré.</p>
+                    <img class="img-article" src="img/codesvg.png" alt="">
                 </div>
             </div>
         </div>

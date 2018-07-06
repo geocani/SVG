@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="exemple.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>COLOR</h1>
+
+
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet href="exemple.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+    <rect id="rectangleQuiBouge" x="60" y="30" width="30" height="20" style="fill: #0B24BE; stroke: #18C20B;">
+        <animate id="bougageDuRectangle" attributeName="x" attributeType="XML" from="60" to="200" begin="2s" dur="3s" fill="freeze" />
+    </rect>
+
+    <circle id="cercleQuiBouge" cx="50" cy="70" r="15" style="fill: #F70701; stroke: #FFA200;">
+        <animate attributeName="cy" attributeType="XML" from="70" to="170" begin="rectangleQuiBouge.mouseover" restart="whenNotActive" dur="3s" fill="freeze" />
+    </circle>
+</svg>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
