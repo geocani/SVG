@@ -8,7 +8,7 @@
     stroke-opacity: 1px;
     transition: fill 0.3s;
 }
-.map__carte path:hover{
+.map__carte .is-active path{
     fill: rgb(41, 107, 74);
     transition: fill 0.3s;
 }
@@ -16,6 +16,12 @@
     float: right;
     width: 50%;
 }
-.map__provinces li{
+.map__provinces p{
+    transition: color 0.3s;
+}
+.map__provinces .is-active p{
+    color: rgb(41, 107, 74);
+    font-weight: 900;
+    text-decoration: underline;
     transition: color 0.3s;
 }
