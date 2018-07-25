@@ -1,3 +1,4 @@
+
 <img src="logosvg.png" style="width: 700px;"/>
 
 # Le format SVG
@@ -15,6 +16,13 @@ Le **S**calable  **V**ector  **G**raphics « graphique vectoriel adaptable », e
 * Infiniment grand et infiniment petite. (**dessin vectoriel**)
 * Le format est directement reconu en langage balisé via n'importe quel traitement de texte.
 * Compatible avec tout les navigateurs. (sauf avec IE 8 et antérieurs, et Android 2.3 et antérieurs)
+<hr>
+<br>
+
+# Chapitres:
+
+<details> 
+  <summary>Chapitre 1 : Création d'une image SVG </summary>
 
 ## Comment ca marche?
 
@@ -34,7 +42,7 @@ Voici les outils dont vous aurrez besoin pour éffectuer ce tuto:
 4. Créer des polygones.
 5. Editer les couleurs et les contours des objets.
 
-## DEUX : Amusez-vous:
+## Amusez-vous:
 
 * Dessine un cercle, ajoute lui une couleur de fond et une bordure.
 * Dessine un carré.
@@ -51,7 +59,7 @@ En fonction du logiciel utilisé pour generer le fichier il y a généralement u
 
 [<img src="p3.png" style="width: 700px;"/>](https://www.youtube.com/watch?v=iVzW3XuOm7E&feature=youtu.be)
 
-#### QUATRE : Prendre le controle avec CSS:
+## Prendre le controle avec CSS:
 
 Pour l'exemple j'ai créé un fichier SVG tres simple, deux élément: une ellipse bleu sous un rectangle vert, les deux ont un contoure de 5 pixel noir.
 
@@ -80,4 +88,63 @@ Pour pouvoir modifier le css de chaque éléments il suffit de lui attribuer une
 Comme ca il ne reste plus qu'a ajouter ces class dans le css et s'amuser à modifier le style de chque element du dessin. 
 
 Biensur ca marche aussi avec du JS, c est ce qu'on va voir maintenant.
+</details>
+
+<details> 
+  <summary>Chapitre 2 : Interation avec JS </summary>
+
+# Création d'une carte interactive.
+
+[Voila le résultat](https://github.com/svg/svgo) et  [ici](https://github.com/svg/svgo) les fichier sources.
+
+## Création de la carte:
+
+* j'ai dessiné une carte de la belgique, chaque formes (provinces) est dans un calque différent ( *Travailler avec les calques [calques](https://fr.flossmanuals.net/inkscape/layers/) et les nommer permet de créer une sorte de ```<div>``` pour chaque dessin, une chose de moins à faire lors de l'optimisation du code.* )
+
+* Ensuite j'ai commenté et optimisé le code en suppriment les meta inutile et en ajoutant des ID pour les selectionner plus facilement:
+
+[<img src="svg-opti.png" style="width: 700px;"/>](svg-opti.png)
+
+## Intégration de l'image:
+
+* Creer un document html
+* Pour que ca soit plus propre y ajouter des balises ```<html>```, ```<meta>``` et ```<body>``` ;-)
+* Ajouter une ```<div class="map">``` qui contiendra la carte et la liste des provinces. Dedans y ajouter deux div l'une en dessous de l'autre. ```<div class=".map__carte">``` et ```<div class="map__provinces">```. ( *[Pourquoi "__"?](https://github.com/svg/svgo)* )
+
+
+* Coller le code SVG de la carte entre les balises ```<div class=".map__carte">```
+* Et dans ```<div class="map__provinces">``` créer une lise avec le nom de chaque province.
+* Ajouter un idantifiant à chaque province :
+
+[<img src="liste-code.png" style="width: 700px;"/>](liste-code.png)
+
+
+## C'est la qu'on code vraiment.
+
+### Ajout du JavaScript:
+
+* Entre deux balise ```<script>``` :
+
+```
+let map = document.querySelector('#map');// SELECTION DE LA DIV "MAP"
+let provincesImg = document.querySelectorAll('.map__carte g'); // SELECTION DE TOUT LES "G"
+let provincesList = document.querySelectorAll('.map__provinces li'); // SELECTION DE TOUT LES "UL"
+
+provincesImg.forEach(function(path){ // POUR CHAQUE "g" 
+    path.addEventListener('mouseenter', function(e) { // AU MOMENT OU LE CURSEUR ENTRE DANS LA ZONE
+        let id = this.id.replace('province-','')
+        map.querySelectorAll('.is-active').forEach(function (item){
+            item.classList.remove('is-active')
+        })
+        document.querySelector('#list-' + id).classList.add('is-active'); // RAJOUTE LA CLASS "is-active" 
+        document.querySelector('#province-' + id).classList.add('is-active'); // RAJOUTE LA CLASS "is-active"
+    })
+})
+```
+
+SOURCES:
+
+</details>
+
+
 
