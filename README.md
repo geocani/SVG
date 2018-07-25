@@ -1,2 +1,0 @@
-# SVG
-Workshop Becode

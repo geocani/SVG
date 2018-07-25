@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 744.09448819 1052.3622047"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient4250">
+      <stop
+         id="stop4252"
+         offset="0"
+         style="stop-color:#fc2929;stop-opacity:1;" />
+      <stop
+         id="stop4254"
+         offset="1"
+         style="stop-color:#fc2929;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="860.93365"
+       x2="390.34656"
+       y1="860.93365"
+       x1="132.27625"
+       id="linearGradient4256"
+       xlink:href="#linearGradient4250" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <ellipse
+       ry="149.28572"
+       rx="146.42857"
+       cy="653.79077"
+       cx="293.57141"
+       id="path4159"
+       style="fill:#879a83;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:0.5, 0.50000000000000000;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="0"
+       rx="0"
+       y="460.21933"
+       x="288.57141"
+       height="252.85715"
+       width="314.28571"
+       id="rect4161"
+       style="fill:#6f886c;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:120, 120;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="358.65875"
+       x="30.582279"
+       height="538.83545"
+       width="701.69257"
+       id="rect4201"
+       style="fill:none;fill-opacity:1;stroke:#fc2929;stroke-width:21.16456604;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="432.41806"
+       x="261.48447"
+       height="302.74536"
+       width="371.31677"
+       id="rect4201-3"
+       style="fill:none;fill-opacity:1;stroke:#4e29fc;stroke-width:11.5403471;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       y="486.01917"
+       x="96.514122"
+       height="341.25751"
+       width="419.82892"
+       id="rect4201-6"
+       style="fill:none;fill-opacity:1;stroke:#01500d;stroke-width:13.02822208;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4224"
+       y="335.21936"
+       x="37.142853"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#fc2929;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         y="335.21936"
+         x="37.142853"
+         id="tspan4226">&lt;div.container&gt;</tspan></text>
+    <text
+       id="text4228"
+       y="413.79077"
+       x="291.42856"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#4e29fc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         y="413.79077"
+         x="291.42856"
+         id="tspan4230">&lt;div.rectangle&gt;</tspan></text>
+    <text
+       id="text4228-7"
+       y="871.96881"
+       x="128.53796"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#01500d;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="stroke:#01500d;stroke-opacity:1;"
+         y="871.96881"
+         x="128.53796"
+         id="tspan4230-5">&lt;div.ellipse&gt;</tspan></text>
+  </g>
+</svg>
