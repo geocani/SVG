@@ -1,6 +1,6 @@
 let map = document.querySelector('#map'); // SELECTION DE LA DIV "MAP"
 let provincesImg = document.querySelectorAll('.map__carte g'); // SELECTION DE TOUT LES "G"
-let provincesList = document.querySelectorAll('.map__provinces li'); // SELECTION DE TOUT LES "UL"
+let provincesList = document.querySelectorAll('.map__provinces li'); // SELECTION DE TOUT LES "li"
 console.log('​provincesImg', provincesImg);
 console.log('​provinceList', provincesList);
 
