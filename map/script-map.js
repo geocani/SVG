@@ -6,7 +6,7 @@ console.log('​provinceList', provincesList);
 
 provincesImg.forEach(function(path){ // POUR CHAQUE "g" 
     path.addEventListener('mouseenter', function(e) { // AU MOMENT OU LE CURSEUR ENTRE DANS LA ZONE
-        let id = this.id.replace('province-','') // REMPLACER L'ID PAR RIEN
+        let id = this.id.replace('province-','')
         map.querySelectorAll('.is-active').forEach(function (item){
             item.classList.remove('is-active')
         })
