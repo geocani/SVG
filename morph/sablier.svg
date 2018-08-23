@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css-nuages.css">
-    <script src="js-nuages.js"></script>
-    <title>Document</title>
-    <style>
-        #rec{
-            position :relative;
-            animation: rec 10s infinite;
-        }
-        @keyframes rec {
-            from {width: 20px;}
-            to {width: 200px;}
-        }
-    </style>
-</head>
-<body>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -83,6 +65,3 @@
        inkscape:label="#path815" />
   </g>
 </svg>
-</body>
-</html>
-
